@@ -1,39 +1,31 @@
 body {
+    align-content: center;
     text-align: center;
-    align-items: center;
 }
 
 fieldset {
-    width: 50%;
+    width: 40%;
     height: 40%;
     margin: 0 auto;
     border: lightcyan;
-    box-shadow:0 0 2px #444;
-    border-bottom-color: tan;
-    place-content: center ;
-    
-    
+    box-shadow:0 0 2px dodgerblue;
+    margin-bottom: 200px;
 }
 
 img {
     width: 80%;
-    height: 90%;
+    height: 60%;
     margin: 0 auto;
 }
 
 input {
     background: aliceblue;
     border:blueviolet;
-    width: 90%;
-    margin: 0 auto;
-    height: 30px;
+    height: 29px;
     box-shadow: 0 0 2px lightcyan;
     caret-color: blue;
-    
-   
-    
-}
-
+    outline:none;
+    }
 
 button {
     margin: 0 auto;
@@ -49,13 +41,12 @@ button {
 }
 
 * {
-    border-radius: 2px;
-    place-content: center ;
+    border-radius: 3px;
 }
 
 
 .container-sm{
-     place-content: center;
+     align-content: center;
      
      
      }
@@ -64,44 +55,9 @@ a, ul{
     list-style-type: none;
     text-decoration: none;
     font-size: 13px;
-    margin-left: 0;
-}
-
-.float1 {
-    float: right;
-    margin: 0;
-    
-}
-
-.float2 {
-    float: left;
-    margin: 0;
-    
 }
 
 button:active{
-    background: darkblue;
+    background: forestgreen;
 }
 
-@media screen and (min-width: 768px){
-
-    fieldset {
-        width: 300px;
-        height: 500px;
-    }
-    
-    img{
-        margin-bottom: 50px;
-    }
-    
-    input {
-        height: 40px;
-        font-size: 25px;
-    }
-    
-    button {
-        height: 36px;
-        font-size: 25px;
-        width: 40%;
-    }
-}
